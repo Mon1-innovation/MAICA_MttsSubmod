@@ -609,7 +609,7 @@ class MTTS:
             SERVER_ERROR: u"A server-side error occurred",
             TOKEN_GENERATION_FAILED: u"Token generation failed",
             GENERATION_FAILED: u"Speech generation failed",
-            CONNECT_PROBLEM: u"Unable to connect to the server",
+            CONNECT_PROBLEM: u"Server is not responding to request",
             RESPONSE_INVALID: u"The server returned an invalid response",
             SERVER_MAINTAIN: u"The server is unavailable or under maintenance",
             FAILED_GET_NODE: u"Failed to retrieve an available service provider",

@@ -34,8 +34,8 @@ translate chinese strings:
     old "Speech generation failed"
     new "语音生成失败"
 
-    old "Unable to connect to the server"
-    new "无法连接服务器, 请检查网络和submod_log"
+    old "Server is not responding to request"
+    new "服务器可能离线"
 
     old "The server returned an invalid response"
     new "服务器响应无效"
