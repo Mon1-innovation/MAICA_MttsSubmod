@@ -19,7 +19,7 @@ RELEASE_WORKFLOW = ROOT / ".github" / "workflows" / "release.yml"
 def test_mtts_registers_unbounded_ignore_translation_conflicts_dependency():
     text = HEADER.read_text(encoding="utf-8")
 
-    assert 'dependencies={"Ignore Translation Conflicts": (None, None)},' in text
+    assert '"Ignore Translation Conflicts": (None, None)' in text
 
 
 def test_release_workflow_downloads_dependency_into_game_tree():

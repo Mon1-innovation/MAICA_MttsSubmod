@@ -106,7 +106,9 @@ init -990 python:
         persistent.mtts_advance_params = {}
 
 
-init -100 python in mtts:
+# CertifiFixer repairs the bundled certifi files at init -100.
+# Import requests and initialize providers only after that repair has run.
+init -99 python in mtts:
     import mtts_package, mtts_renpy_text, store, os
     from mtts_provider_manager import MTTSProviderManager
 

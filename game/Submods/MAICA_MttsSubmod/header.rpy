@@ -12,7 +12,7 @@ init -990 python:
         name="MTTS Synbrace",
         description=_("MAICA-MTTS Official Submod Frontend"),
         version=mtts_version,
-        dependencies={"Ignore Translation Conflicts": (None, None)},
+        dependencies={"Ignore Translation Conflicts": (None, None), "CertifiFixer": (None, None)},
         settings_pane="mtts_settingpane"
     )
 
